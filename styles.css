@@ -47,11 +47,14 @@ nav a {
 }
 
 .photos {
-  
     list-style: none;
     margin: 0;
-    padding: 0;
-    
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-column-gap: 1px;
+    float: left;
+    padding: left 1em;
+    grid-row-gap:1px;
 }
 
 .feature {
@@ -59,6 +62,3 @@ nav a {
     float: left;
     padding-right: 1em;
 }
-.container {
-    display: grid;
-        grid-template-rows: 100px auto 100px;}
